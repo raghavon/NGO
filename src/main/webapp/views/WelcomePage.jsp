@@ -18,16 +18,16 @@
     			<h3 class="mb-3">Login to future</h3>
     			 <p class="mb-5" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Not a Memeber? <a style="color: white;" href="#">SignUp</a></p>
 
-    			<form action="#" class="volunter-form">
+    			<form action="/login" class="volunter-form">
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Name">
+              <input type="text" class="form-control" name="name" placeholder="Your Name">
             </div>
             <div class="form-group">
-              <input type="password" class="form-control" placeholder="Your Password">
+              <input type="password" class="form-control" name="password" placeholder="Your Password">
             </div>
 
             <div class="form-group">
-              <input type="submit" value="Send Message" class="btn btn-white py-3 px-5">
+              <input type="submit" value="Login" class="btn btn-white py-3 px-5">
             </div>
           </form>
     		</div>
