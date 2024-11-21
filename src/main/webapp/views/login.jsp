@@ -20,7 +20,7 @@
 
     			<form action="/login" class="volunter-form">
             <div class="form-group">
-              <input type="text" class="form-control" name="name" placeholder="Your Name">
+              <input type="email" class="form-control" name="email" placeholder="Your Email">
             </div>
             <div class="form-group">
               <input type="password" class="form-control" name="password" placeholder="Your Password">

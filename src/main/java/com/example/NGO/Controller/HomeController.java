@@ -12,10 +12,18 @@ public class HomeController {
     @Autowired
 UserServiceImpl userServiceImpl;
     @RequestMapping("/login")
-    public String getHome( String name, String password)
+    public String loginUser(String email, String password)
+    {
+        System.out.println(email+"\t111111\t"+password);
+        userServiceImpl.logIn(email,password);
+        return "/views/index.jsp";
+    }
+
+    @RequestMapping("/register")
+    public String registerUser(String name, String password , String contactNo , String email)
     {
         System.out.println(name+"\t111111\t"+password);
-        userServiceImpl.logIn(name,password);
-        return "/views/index.jsp";
+        userServiceImpl.register(name,password,contactNo,email);
+        return "/views/login.jsp";
     }
 }

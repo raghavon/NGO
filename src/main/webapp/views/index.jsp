@@ -19,8 +19,8 @@
           <li class="nav-item"><a href="#" class="nav-link">Donate</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Gallery</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Events</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="login.jsp" class="nav-link">Login</a></li>
+          <li class="nav-item"><a href="register.jsp" class="nav-link">Register</a></li>
         </ul>
       </div>
     </div>

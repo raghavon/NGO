@@ -17,15 +17,18 @@
     			<h3 class="mb-3">Register for future</h3>
 	            <p class="mb-5" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Already a member? <a href="#" style="color: white">Login</a></p>
 
-    			<form action="#" class="volunter-form">
+    			<form action="/register" class="volunter-form">
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Name">
+              <input type="text" class="form-control" name="name" placeholder="Your Name">
             </div>
             <div class="form-group">
-              <input type="email" class="form-control" placeholder="Your Email">
+              <input type="email" class="form-control" name="email" placeholder="Your Email">
             </div>
             <div class="form-group">
-              <input type="password" class="form-control" placeholder="Your Password">
+              <input type="tel" class="form-control" name="contactNo" placeholder="Your ContactNo">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" name="password" placeholder="Your Password">
             </div>
 
             <div class="form-group">

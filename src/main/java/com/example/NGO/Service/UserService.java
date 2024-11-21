@@ -1,5 +1,6 @@
 package com.example.NGO.Service;
 
 public interface UserService {
-void logIn(String name,String password);
+    boolean logIn(String name,String password);
+    void register(String name, String password , String contactNo , String email);
 }
