@@ -11,25 +11,22 @@
     	<div class="container">
     		<div class="row d-md-flex">
     		<div class="col-md-6 d-flex ftco-animate">
-    			<div class="img img-2 align-self-stretch" style="background-image: url(/assets/images/ai1.jpg);"></div>
+    			<div class="img img-2 align-self-stretch" style="background-image: url(/assets/images/ngohelp.jpg);"></div>
     		</div>
     		<div class="col-md-6 volunteer pl-md-5 ftco-animate">
-    			<h3 class="mb-3">Login to confirm your ticket in heaven </h3>
-	            <p class="mb-5" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Not a member? <a href="#" style="color: white">Register</a></p>
+    			<h3 class="mb-3">Login for future</h3>
 
-    			<form action="#" class="volunter-form">
+
+    			<form action="/user/register" class="volunter-form">
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Name">
+              <input type="text" class="form-control" name="name" placeholder="Your Name">
             </div>
-            <!--<div class="form-group">
-              <input type="email" class="form-control" placeholder="Your Email">
-            </div>-->
             <div class="form-group">
-              <input type="password" class="form-control" placeholder="Your Password">
+              <input type="password" class="form-control" name="password" placeholder="Your Password">
             </div>
 
             <div class="form-group">
-              <input type="submit" value="Register" class="btn btn-white py-3 px-5">
+              <input type="submit" value="Login" class="btn btn-white py-3 px-5">
             </div>
           </form>
     		</div>
