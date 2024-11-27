@@ -18,8 +18,7 @@
    	          	<div style="height:70px;">
               	<h3 class="mb-4">APPROVED</h3>
               </div>
-              	<p>Donate for a NGO</p>
-              	<p><a href="#" class="btn btn-white px-3 py-2 mt-2">Donate Now</a></p>
+              	<p><a href="#" class="btn btn-white px-3 py-2 mt-2">Accepted Approvals</a></p>
               </div>
             </div>
           </div>
@@ -30,8 +29,7 @@
                 <div style="height:70px;">
               	<h3 class="mb-4">PENDING</h3>
               	</div>
-              	<p>Good deeds done by you</p>
-              	<p><a href="#" class="btn btn-white px-3 py-2 mt-2">Contributions</a></p>
+              <p><a href="#" class="btn btn-white px-3 py-2 mt-2">Pending Approvals</a></p>
               </div>
             </div>
           </div>
@@ -42,8 +40,7 @@
           	<div style="height:70px;">
               	<h3 class="mb-4">REJECTED</h3>
               </div>
-              	<p>Changes you have have made</p>
-              	<p><a href="#" class="btn btn-white px-3 py-2 mt-2">Gallery</a></p>
+              <p><a href="#" class="btn btn-white px-3 py-2 mt-2">Rejected Approvals</a></p>
               </div>
             </div>
           </div>
@@ -84,27 +81,27 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="align-items-center">hiii</td>
+                            <td class="align-items-center">1.abc</td>
 
                         </tr>
                         <tr>
-                            <td class="align-items-center">hiii</td>
+                            <td class="align-items-center">2.ab</td>
 
                         </tr>
                         <tr>
-                            <td class="align-items-center">hiii</td>
+                            <td class="align-items-center">3.ab</td>
 
                         </tr>
                         <tr>
-                            <td class="align-items-center">hiii</td>
+                            <td class="align-items-center">4.abc</td>
 
                         </tr>
                         <tr>
-                            <td class="align-items-center">hiii</td>
+                            <td class="align-items-center">5.ab</td>
 
                         </tr>
                         <tr>
-                            <td class="align-items-center">hiii</td>
+                            <td class="align-items-center">6.ab</td>
 
                         </tr>
                     </tbody>
@@ -112,7 +109,12 @@
             </div>
               <div class="col-md-4" >
                             <div class="alert alert-info" style="height:323px;" role="alert" >
-                                <strong >Notice:</strong> This is a notice box!!!
+                                <strong>*</strong> It is not how much we give but how much love we put into giving : <strong>Mother Theresa.</strong><br>
+                                <strong>*</strong> Service to others is the rent you pay for your room here on earth : <strong>Muhammad Ali.</strong><br>
+                                <strong>*</strong> No one has ever become poor by giving : <strong>Anne Frank.</strong><br>
+                                <strong>*</strong> We make a living by what we get, but we make a life by what we give : <strong>Winston Churchill.</strong><br>
+                                <strong>*</strong> The meaning of life is to find your gift. The purpose of life is to give it away : <strong>Pablo.</strong><br>
+
                             </div>
                         </div>
         </div>
@@ -125,7 +127,6 @@
 	                                            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 												<script>
 
-
 													var ctx1 = document.getElementById("chart-line").getContext("2d");
 													var gradientStroke1 = ctx1.createLinearGradient(0, 230, 0, 50);
 													gradientStroke1.addColorStop(1, 'rgba(94, 114, 228, 0.2)');
@@ -134,10 +135,10 @@
 													new Chart(ctx1, {
 														type: "line",
 														data: {
-															labels: ["Week1", "Week2", "Week3", "Week4", "Week5",
-																"Week6", "Week7", "Week8"],
+															labels: ["January", "Feburary", "March", "April", "May",
+																"June", "July", "August","September", "October", "November", "December"],
 															datasets: [{
-																label: "Marks Progress",
+																label: "Approval Rate",
 																tension: 0.4,
 																borderWidth: 0,
 																pointRadius: 0,
@@ -145,7 +146,7 @@
 																backgroundColor: gradientStroke1,
 																borderWidth: 3,
 																fill: true,
-																data: [90,10,50,80,60,40,70,50],
+																data: [90,10,50,80,60,40,70,50,30,40,20,50],
 																maxBarThickness: 6
 															}],
 														},
