@@ -5,8 +5,6 @@
   <body>
 		<%@ include file="component/navbar.jsp" %>
 
-
-
     <section class="ftco-section-3 img" style="background-image: url(/assets/images/bg_3.jpg);">
     	<div class="overlay"></div>
     	<div class="container">
@@ -16,6 +14,7 @@
     		</div>
     		<div class="col-md-6 volunteer pl-md-5 ftco-animate">
     			<h3 class="mb-3">Login to future</h3>
+                <%=request.getParameter("error")==null?" ":request.getParameter("error")%>
     			 <p class="mb-5" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Not a Memeber? <a style="color: white;" href="#">SignUp</a></p>
 
     			<form action="/user/login" class="volunter-form">

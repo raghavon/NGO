@@ -9,26 +9,28 @@ import jakarta.persistence.Table;
 @Table(name="user_table")
 public class User {
 
-    public User() {
-    }
-
     @Id
+    String email;
+    @Column
     String name;
     @Column
     String password;
-@Column
+    @Column
     String role;
-@Column
-    String email;
-@Column
+    @Column
     String contactNo;
 
-    public User(String name, String password, String email, String contactNo) {
+
+    public User() {
+    }
+
+    public User(String name, String password ,String email, String contactNo) {
         this.name = name;
         this.password = password;
         this.email = email;
         this.contactNo = contactNo;
     }
+
 
     public void setName(String name) {
         this.name = name;

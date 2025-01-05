@@ -17,15 +17,15 @@ public class ViewController {
 
 
 
-    @RequestMapping("/login")
+    @RequestMapping("/loginPage")
     public String getLoginPage()
     {
-        return "redirect:/views/login.jsp";
+        return "login";
     }
 
 
 
-    @RequestMapping("/register")
+    @RequestMapping("/registerPage")
     public String getRegisterationPage()
     {
         return "redirect:/views/register.jsp";
@@ -34,7 +34,19 @@ public class ViewController {
     @RequestMapping("/userDashboard")
     public String getUserdashboard()
     {
-        return "redirect:/views/userDashboard.jsp";
+        return "userDashboard";
+    }
+
+ @RequestMapping("/adminDashboard")
+    public String getadmindashboard()
+    {
+        return "adminDashboard";
+    }
+
+ @RequestMapping("/ngoDashboard")
+    public String getNgodashboard()
+    {
+        return "ngoDashboard";
     }
 
 }

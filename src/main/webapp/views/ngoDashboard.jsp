@@ -44,7 +44,6 @@
               </div>
             </div>
           </div>
-<%--
           <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
             <div class="block-18 color-2 align-items-stretch">
               <div class="text">
@@ -56,7 +55,6 @@
               </div>
             </div>
           </div>
---%>
     		</div>
     	</div>
     </section>

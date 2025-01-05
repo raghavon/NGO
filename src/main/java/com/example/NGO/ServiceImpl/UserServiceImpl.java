@@ -14,16 +14,16 @@ public class UserServiceImpl implements UserService {
 UserRepo userRepo;
 
     @Override
-    public boolean logIn(String email, String password) {
+    public User logIn(String email, String password) {
         User user=userRepo.findByEmailAndPassword(email,password);
-        return user!=null;
+        return user;
     }
 
     @Override
     public void register(String name, String password, String contactNo, String email)
     {
-        System.out.println(name+"\t222222\t"+password);
         User user=new User(name,password,email,contactNo);
+        user.setRole("Visitor");
         userRepo.save(user);
     }
 }
